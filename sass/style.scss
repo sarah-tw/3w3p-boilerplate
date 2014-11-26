@@ -24,6 +24,9 @@ body {
 	color: $font-color;
 	background: rgb(86, 100, 114);
 }
+p {
+	line-height: 1.4em;
+}
 .clearfix:after {
 	content: '';
 	display: block;
@@ -81,9 +84,10 @@ form.find-agent {
 	}
 }
 .welcome {
-	padding: 4% 0 0 0;
+	padding: 2% 0 0 0;
 	color: white;
-	background: url('../sunset-resized.jpg') no-repeat center;
+	background: url('../01.jpg') no-repeat center;
+	background-size: 100%;
 	.user {
 		clear: both;
 		width: 300px;
@@ -105,9 +109,6 @@ form.find-agent {
 		margin: 20% 0 10px 0;
 		font-weight: bold;
 		font-size: 2em;
-	}
-	p {
-		color: #ccc;
 	}
 }
 
@@ -197,7 +198,6 @@ form.find-agent {
 		}
 		.descrption {
 			color: $light-gray;
-			line-height: 1.3em;
 		}
 	}
 }

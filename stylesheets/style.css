@@ -153,41 +153,46 @@ body {
 }
 
 /* line 27, ../sass/style.scss */
+p {
+  line-height: 1.4em;
+}
+
+/* line 30, ../sass/style.scss */
 .clearfix:after {
   content: '';
   display: block;
   clear: both;
 }
 
-/* line 32, ../sass/style.scss */
+/* line 35, ../sass/style.scss */
 .container {
   margin: 0 auto;
   width: 80%;
 }
 
-/* line 36, ../sass/style.scss */
+/* line 39, ../sass/style.scss */
 .text-center {
   text-align: center;
 }
 
-/* line 39, ../sass/style.scss */
+/* line 42, ../sass/style.scss */
 .pull-right {
   float: right;
 }
 
-/* line 42, ../sass/style.scss */
+/* line 45, ../sass/style.scss */
 .pull-left {
   float: left;
 }
 
-/* line 45, ../sass/style.scss */
+/* line 48, ../sass/style.scss */
 .banner {
   background: white;
   padding: 2%;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
 }
-/* line 50, ../sass/style.scss */
+/* line 53, ../sass/style.scss */
 .banner .red-circle {
   display: inline-block;
   width: 20px;
@@ -196,7 +201,7 @@ body {
   background-color: #e5674d;
   margin-right: 6px;
 }
-/* line 53, ../sass/style.scss */
+/* line 56, ../sass/style.scss */
 .banner .yellow-circle {
   display: inline-block;
   width: 20px;
@@ -205,7 +210,7 @@ body {
   background-color: #f9bf2d;
   margin-right: 6px;
 }
-/* line 56, ../sass/style.scss */
+/* line 59, ../sass/style.scss */
 .banner .green-circle {
   display: inline-block;
   width: 20px;
@@ -215,25 +220,25 @@ body {
   margin-right: 6px;
 }
 
-/* line 60, ../sass/style.scss */
+/* line 63, ../sass/style.scss */
 form.find-agent {
   width: 50%;
   margin: 4% auto;
 }
-/* line 63, ../sass/style.scss */
+/* line 66, ../sass/style.scss */
 form.find-agent input {
   color: white;
   font-size: 1em;
 }
-/* line 64, ../sass/style.scss */
+/* line 67, ../sass/style.scss */
 form.find-agent input:-moz-placeholder {
   color: white;
 }
-/* line 65, ../sass/style.scss */
+/* line 68, ../sass/style.scss */
 form.find-agent ::-webkit-input-placeholder {
   color: white;
 }
-/* line 66, ../sass/style.scss */
+/* line 69, ../sass/style.scss */
 form.find-agent input[type='text'] {
   padding: 20px 3%;
   border: none;
@@ -242,7 +247,7 @@ form.find-agent input[type='text'] {
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
 }
-/* line 74, ../sass/style.scss */
+/* line 77, ../sass/style.scss */
 form.find-agent input[type='submit'] {
   width: 24%;
   padding: 20px 0;
@@ -252,49 +257,46 @@ form.find-agent input[type='submit'] {
   border-bottom-right-radius: 4px;
 }
 
-/* line 83, ../sass/style.scss */
+/* line 86, ../sass/style.scss */
 .welcome {
-  padding: 4% 0 0 0;
+  padding: 2% 0 0 0;
   color: white;
-  background: url("../sunset-resized.jpg") no-repeat center;
+  background: url("../01.jpg") no-repeat center;
+  background-size: 100%;
 }
-/* line 87, ../sass/style.scss */
+/* line 91, ../sass/style.scss */
 .welcome .user {
   clear: both;
   width: 300px;
 }
-/* line 90, ../sass/style.scss */
+/* line 94, ../sass/style.scss */
 .welcome .user a {
   color: white;
   text-decoration: none;
   margin-right: 10%;
   word-break: break-word;
 }
-/* line 95, ../sass/style.scss */
+/* line 99, ../sass/style.scss */
 .welcome .user a.sign-up {
   display: inline-block;
   border: 1px solid #f1f1f1;
   padding: 8px 12px;
   border-radius: 4px;
 }
-/* line 103, ../sass/style.scss */
+/* line 107, ../sass/style.scss */
 .welcome h1 {
   clear: both;
   margin: 20% 0 10px 0;
   font-weight: bold;
   font-size: 2em;
 }
-/* line 109, ../sass/style.scss */
-.welcome p {
-  color: #ccc;
-}
 
-/* line 114, ../sass/style.scss */
+/* line 115, ../sass/style.scss */
 .statistics {
   width: 70%;
   margin: 16% auto -66px auto;
 }
-/* line 117, ../sass/style.scss */
+/* line 118, ../sass/style.scss */
 .statistics li {
   text-align: center;
   float: left;
@@ -305,64 +307,64 @@ form.find-agent input[type='submit'] {
   border: 1px solid #ccc;
   border-right: none;
 }
-/* line 126, ../sass/style.scss */
+/* line 127, ../sass/style.scss */
 .statistics li:last-child {
   border-right: 1px solid #ccc;
 }
-/* line 129, ../sass/style.scss */
+/* line 130, ../sass/style.scss */
 .statistics li span {
   display: block;
 }
-/* line 131, ../sass/style.scss */
+/* line 132, ../sass/style.scss */
 .statistics li span.number {
   color: #333;
   font-weight: bold;
   font-size: 1.2em;
   margin: 16px 0;
 }
-/* line 137, ../sass/style.scss */
+/* line 138, ../sass/style.scss */
 .statistics li span.title {
   color: #666;
 }
 
-/* line 144, ../sass/style.scss */
+/* line 145, ../sass/style.scss */
 .process, .why-us, .team-member, .search {
   background-color: white;
   padding-bottom: 10%;
 }
-/* line 146, ../sass/style.scss */
+/* line 147, ../sass/style.scss */
 .process h1, .why-us h1, .team-member h1, .search h1 {
   font-size: 1.2em;
   font-weight: bold;
   margin: 8% 0;
 }
-/* line 151, ../sass/style.scss */
+/* line 152, ../sass/style.scss */
 .process h2, .why-us h2, .team-member h2, .search h2 {
   margin-bottom: 20px;
   font-weight: bold;
   font-size: 1.2em;
 }
 
-/* line 159, ../sass/style.scss */
+/* line 160, ../sass/style.scss */
 .process {
   padding: 10% 0;
   text-align: center;
 }
-/* line 162, ../sass/style.scss */
+/* line 163, ../sass/style.scss */
 .process hr {
   width: 70%;
   border-top: 1px solid #ccc;
   border-bottom: none;
   margin-bottom: -52px;
 }
-/* line 168, ../sass/style.scss */
+/* line 169, ../sass/style.scss */
 .process li {
   padding: 0 4%;
   float: left;
   width: 25.33%;
   margin: 20px 0;
 }
-/* line 173, ../sass/style.scss */
+/* line 174, ../sass/style.scss */
 .process li .number {
   border: 1px solid #ccc;
   background-color: white;
@@ -371,32 +373,31 @@ form.find-agent input[type='submit'] {
   border-radius: 30px;
   line-height: 60px;
 }
-/* line 181, ../sass/style.scss */
+/* line 182, ../sass/style.scss */
 .process li .icon {
   display: block;
   font-size: 3em;
   margin: 12% 0;
 }
-/* line 186, ../sass/style.scss */
+/* line 187, ../sass/style.scss */
 .process li .icon-pencil {
   color: #ad9ed1;
 }
-/* line 189, ../sass/style.scss */
+/* line 190, ../sass/style.scss */
 .process li .icon-address-book {
   color: #eaa861;
 }
-/* line 192, ../sass/style.scss */
+/* line 193, ../sass/style.scss */
 .process li .icon-users {
   color: #519ac9;
 }
-/* line 195, ../sass/style.scss */
+/* line 196, ../sass/style.scss */
 .process li span {
   display: inline-block;
 }
-/* line 198, ../sass/style.scss */
+/* line 199, ../sass/style.scss */
 .process li .descrption {
   color: #666;
-  line-height: 1.3em;
 }
 
 /* line 204, ../sass/style.scss */
