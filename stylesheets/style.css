@@ -609,19 +609,18 @@ footer i.icon-twitter {
 }
 @media (max-width: 500px) {
   /* line 360, ../sass/style.scss */
-  .why-us ul li, .process li {
+  .process li {
     width: 95%;
   }
+  /* line 362, ../sass/style.scss */
+  .process li .icon {
+    margin: 5% 0;
+  }
 
-  /* line 363, ../sass/style.scss */
+  /* line 366, ../sass/style.scss */
   .why-us ul li {
     width: 94%;
     margin: 20px 3%;
-  }
-
-  /* line 367, ../sass/style.scss */
-  .process li .icon {
-    margin: 5% 0;
   }
 
   /* line 370, ../sass/style.scss */
