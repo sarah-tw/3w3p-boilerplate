@@ -584,38 +584,52 @@ footer i.icon-twitter {
 
 @media (max-width: 700px) {
   /* line 341, ../sass/style.scss */
+  body {
+    font-size: 14px;
+  }
+
+  /* line 344, ../sass/style.scss */
   .container {
     width: 95%;
   }
+
+  /* line 347, ../sass/style.scss */
+  .why-us ul li {
+    text-align: center;
+  }
+  /* line 349, ../sass/style.scss */
+  .why-us ul li > div {
+    width: 100%;
+    margin-top: 10px;
+  }
+  /* line 353, ../sass/style.scss */
+  .why-us ul li i {
+    float: none;
+  }
 }
 @media (max-width: 500px) {
-  /* line 346, ../sass/style.scss */
+  /* line 360, ../sass/style.scss */
   .why-us ul li, .process li {
     width: 95%;
   }
 
-  /* line 349, ../sass/style.scss */
+  /* line 363, ../sass/style.scss */
   .why-us ul li {
     width: 94%;
     margin: 20px 3%;
-    text-align: center;
-  }
-  /* line 353, ../sass/style.scss */
-  .why-us ul li i {
-    width: 100%;
   }
 
-  /* line 357, ../sass/style.scss */
+  /* line 367, ../sass/style.scss */
   .process li .icon {
     margin: 5% 0;
   }
 
-  /* line 360, ../sass/style.scss */
+  /* line 370, ../sass/style.scss */
   .statistics {
     width: 95%;
   }
 
-  /* line 363, ../sass/style.scss */
+  /* line 373, ../sass/style.scss */
   form.find-agent {
     width: 80%;
   }

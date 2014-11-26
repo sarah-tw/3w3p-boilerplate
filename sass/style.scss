@@ -344,6 +344,17 @@ footer {
 	.container {
 		width: 95%;
 	}
+	.why-us ul li {
+		text-align: center;
+		> div {
+			width: 100%;
+			margin-top: 10px;
+		}
+		i {
+			float: none;
+		}
+
+	}
 }
 @media(max-width: 500px){
 	.why-us ul li, .process li {
@@ -352,10 +363,6 @@ footer {
 	.why-us ul li {
 		width: 94%;
 		margin: 20px 3%;
-		text-align: center;
-		i {
-			width: 100%;
-		}
 	}
 	.process li .icon {
 		margin: 5% 0;
